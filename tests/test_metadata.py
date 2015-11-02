@@ -125,4 +125,3 @@ class HandleConfigVersionTests(unittest.TestCase):
             # environment variable CONDA_NPY
             self.assertEqual(numpy_spec,
                              MatchSpec('numpy {}*'.format(env_numpy_version)))
-        assert 0
